@@ -1,0 +1,44 @@
+blockquote {
+  overflow-x: auto;
+}
+
+pre {
+  font-size: 1.5rem;
+  margin: 1rem 0;
+}
+
+.navbar {
+  padding: 0.5rem 0;
+}
+
+.category-list,
+.tag-list,
+.archive-list,
+.post-list {
+  list-style: none;
+  padding: 0;
+}
+
+.category-list-count,
+.tag-list-count,
+.archive-list-count {
+  margin-left: 0.3rem;
+}
+
+.category-list-count:before,
+.tag-list-count:before,
+.archive-list-count:before {
+  content: "(";
+}
+
+.category-list-count:after,
+.tag-list-count:after,
+.archive-list-count:after {
+  content: ")";
+}
+
+.scroll-to-top {
+  position: fixed;
+  bottom: 2.5rem;
+  right: 0;
+}
