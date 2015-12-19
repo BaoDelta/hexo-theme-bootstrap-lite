@@ -5,7 +5,7 @@ header_links:
 
 rss: /atom.xml
 
-# profile_picture: /images/profile.png
+profile_picture: /images/profile.png
 
 since: 2015
 
@@ -16,8 +16,8 @@ widgets:
 - tags
 - tagcloud
 
-# social_links:
-#   twitter: twitter_url
-#   github: github_url
-#   envelope: mailto_url
-#   rss: rss_url
+social_links:
+  twitter: https://twitter.com/BaoDangDev
+  github: https://github.com/baodang
+  envelope: "mailto:dangvinhbao@gmail.com"
+  rss: /atom.xml
