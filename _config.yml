@@ -1,6 +1,5 @@
 header_links:
   Archives: /archives
-  Page: /page
   About: "#about"
 
 rss: /atom.xml
@@ -12,9 +11,7 @@ since: 2015
 widgets:
 - archives
 - recents
-- categories
 - tags
-- tagcloud
 
 social_links:
   twitter: https://twitter.com/BaoDangDev
