@@ -2,4 +2,9 @@
 
 {% block title %}Tags{% endblock %}
 
-{% block content %}{{ list_tags() }}{% endblock %}
+{% block content %}
+  {{ list_tags({
+    orderby: "count",
+    amount: 40
+  }) }}
+{% endblock %}

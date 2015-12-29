@@ -10,9 +10,6 @@
       </p>
     {% endif %}
     <h2>{{ config.author }}</h2>
-    {% if config.subtitle %}
-      <h2><span class="label label-primary">{{ config.subtitle }}</span></h2>
-    {% endif %}
     <p><em>{{ config.description }}</em></p>
     <p>
       {% for icon, link in theme.social_links %}

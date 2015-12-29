@@ -1,6 +1,4 @@
 header_links:
-  Archives: /archives
-  Page: /page
   About: "#about"
 
 rss: /atom.xml
@@ -10,11 +8,10 @@ rss: /atom.xml
 since: 2015
 
 widgets:
-- archives
 - recents
 - categories
 - tags
-- tagcloud
+- archives
 
 # social_links:
 #   twitter: twitter_url

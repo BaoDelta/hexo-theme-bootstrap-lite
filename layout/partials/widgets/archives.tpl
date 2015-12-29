@@ -2,4 +2,8 @@
 
 {% block title %}Archives{% endblock %}
 
-{% block content %}{{ list_archives() }}{% endblock %}
+{% block content %}
+  {{ list_archives({
+    type: "yearly"
+  }) }}
+{% endblock %}
