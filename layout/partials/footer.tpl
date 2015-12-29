@@ -27,7 +27,7 @@
     <p class="m-y-1">
       Powered by <a href="https://hexo.io" target="_blank" class="text-warning">Hexo</a>
       <i class="fa fa-fw fa-bolt"></i>
-      Theme <a href="https://github.com/baodang/hexo-theme-bootstrap-lite" target="_blank" class="text-warning"
+      Theme <a href="https://github.com/BaoDelta/hexo-theme-bootstrap-lite" target="_blank" class="text-warning"
         >Bootstrap Lite</a>
     </p>
   </div>
