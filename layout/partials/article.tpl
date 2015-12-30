@@ -8,7 +8,7 @@
       <a href="{{ url_for(post.path) }}"><strong>{{ post.title }}</strong></a>
     </h2>
   {% endif %}
-  <ul class="list-inline">
+  <ul class="list-inline m-y-1">
     <li class="list-inline-item">
       <em class="text-muted">{{ date(post.date) }}</em>
     </li>
