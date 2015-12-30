@@ -10,10 +10,10 @@ highlight_theme: tomorrow-night-eighties
 since: 2015
 
 widgets:
+- archives
 - recents
 - categories
 - tags
-- archives
 
 social_links:
   twitter: https://twitter.com/BaoDelta
