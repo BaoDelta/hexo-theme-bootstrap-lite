@@ -4,7 +4,8 @@
 
 {% block content %}
   {{ list_tags({
-    orderby: "count",
+    orderby: "length",
+    order: -1,
     amount: 40
   }) }}
 {% endblock %}
