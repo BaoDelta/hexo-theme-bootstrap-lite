@@ -2,6 +2,10 @@ blockquote {
   overflow-x: auto;
 }
 
+code, kbd, pre, samp {
+  font-family: monospace;
+}
+
 pre {
   font-size: 1.2rem;
   margin: 1rem 0;
