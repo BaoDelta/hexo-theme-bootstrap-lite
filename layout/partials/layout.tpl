@@ -11,7 +11,7 @@
     {% endif %}
     {{ css("https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.2/css/bootstrap.min.css") }}
     {{ css("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.5.0/css/font-awesome.min.css") }}
-    {{ css("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/tomorrow-night-eighties.min.css") }}
+    {{ css("https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.0.0/styles/{{ theme.highlight_theme }}.min.css") }}
     {{ css("css/theme.css") }}
   </head>
   <body>

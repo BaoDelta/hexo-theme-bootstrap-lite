@@ -5,6 +5,8 @@ rss: /atom.xml
 
 profile_picture: /images/profile.png
 
+highlight_theme: tomorrow-night-eighties
+
 since: 2015
 
 widgets:
