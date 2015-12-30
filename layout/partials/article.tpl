@@ -41,7 +41,7 @@
     </div>
   {% endif %}
   {% if post.tags and post.tags.length %}
-    <ul class="list-inline">
+    <ul class="list-inline m-y-1">
       {% for tag in post.tags.toArray() | sort(false, false, "name") %}
         <li class="list-inline-item"><a href="{{ url_for(tag.path) }}" class="label label-primary">{{ tag.name }}</a></li>
       {% endfor %}
