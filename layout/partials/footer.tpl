@@ -1,6 +1,6 @@
 <a href="#top" class="scroll-to-top text-warning" style="display: none;">
-  <i class="hidden-sm-down fa fa-fw fa-3x fa-arrow-circle-up"></i>
-  <i class="hidden-md-up fa fa-fw fa-2x fa-arrow-circle-up"></i>
+  <i class="hidden-sm-down fa fa-fw fa-3x fa-arrow-up"></i>
+  <i class="hidden-md-up fa fa-fw fa-2x fa-arrow-up"></i>
 </a>
 <footer class="text-xs-center">
   <div id="about" class="p-y-3">
