@@ -6,7 +6,7 @@
   <div id="about" class="p-y-3">
     {% if theme.profile_picture %}
       <p>
-        <img src="{{ theme.profile_picture }}" class="img-fluid img-circle m-x-auto"/>
+        <img src="{{ theme.profile_picture }}" class="img-fluid img-thumbnail m-x-auto"/>
       </p>
     {% endif %}
     <h2>{{ config.author }}</h2>
