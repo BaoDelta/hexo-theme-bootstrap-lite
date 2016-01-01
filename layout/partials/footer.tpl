@@ -30,5 +30,10 @@
       Theme <a href="https://github.com/BaoDelta/hexo-theme-bootstrap-lite" target="_blank" class="text-warning"
         >Bootstrap Lite</a>
     </p>
+    {% if theme.github_repo %}
+      <p class="m-y-1">
+        <a href="{{ theme.github_repo }}" target="_blank" class="text-success">Fork me on GitHub</a>
+      </p>
+    {% endif %}
   </div>
 </footer>
